@@ -63,7 +63,7 @@ if(command === "changelog") {
          .setTimestamp()
          .setFooter(`Por: ${message.author.tag}`, message.author.avatarURL)
       
-      message.channel.send("@everyone", changelog)
+      message.channel.send("", changelog)
       
   }
 }
